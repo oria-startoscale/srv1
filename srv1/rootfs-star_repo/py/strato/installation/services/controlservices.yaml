@@ -1,0 +1,6 @@
+    - name: srv1-api
+      attribs: [monitored, watchdogEnabled, control]
+      group: API Services
+    - name: srv1-worker
+      attribs: [monitored, watchdogEnabled, control]
+      group: API Services

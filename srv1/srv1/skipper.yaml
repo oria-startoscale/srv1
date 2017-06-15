@@ -1,0 +1,3 @@
+registry: rackattack-nas.dc1:5000
+build-container-image: srv1-build
+build_container_net: srv1_tests-network

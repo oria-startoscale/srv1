@@ -1,0 +1,5 @@
+# .coveragerc to control coverage.py
+[run]
+omit =
+    srv1/api.py
+    srv1/db/setup.py

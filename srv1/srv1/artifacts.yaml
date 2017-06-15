@@ -1,0 +1,6 @@
+containers:
+  - srv1
+pips:
+  - srv1-client/dist/srv1-client-*.tar.gz
+rpms:
+  - build/rpmbuild/RPMS/x86_64
