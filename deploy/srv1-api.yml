@@ -1,0 +1,11 @@
+---
+
+srv1-api:
+  image: rackattack-nas.dc1:5000/staging/srv1:latest
+  container_name: srv1-api.service.strato
+  dns_search: service.strato
+  volumes:
+    - /var/log/stratoscale:/var/log/stratoscale:rw,Z
+    - /etc/stratoscale/:/etc/stratoscale/:ro
+    - /etc/localtime:/etc/localtime:ro
+  net: "host"

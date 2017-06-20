@@ -1,0 +1,5 @@
+stratoconsts==f59ea7c
+hammock-rest==3e0055a8cb8fd70f458c4cdc15234991dd5c2809
+strato-common==76e980199e8718b098881d833f83da1cad3c44aa
+strato_kv==dd561fddece1bc447a66006af75026c85663ab8c
+datalayer-lib==a8360780104ff4031bed3483e42a79ebde0ff5b6

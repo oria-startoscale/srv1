@@ -1,0 +1,34 @@
+{
+    "handlers":
+    {
+        "console":
+        {
+            "level": "ERROR"
+        },
+        "file":
+        {
+            "level": "INFO"
+        }
+    },
+    "version": 1,
+    "loggers":
+    {
+        "hammock":
+        {
+            "level": "INFO"
+        },
+        "client":
+        {
+            "level": "WARNING"
+        },
+        "requests":
+        {
+            "level": "WARNING"
+        }
+     },
+    "root":
+    {
+        "level": "DEBUG"
+    },
+    "incremental": true
+}

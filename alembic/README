@@ -1,0 +1,26 @@
+Alembic provides for the creation, management, and invocation of change management scripts
+for a relational database, using SQLAlchemy as the underlying engine.
+
+This directory is the home of the migration environment.
+
+ - alembic.ini:
+
+     Configuration file that the alembic script looks for when invoked.
+
+ - env.py:
+
+    This is a Python script that is run whenever the alembic migration tool is invoked. At the very least, it contains
+    instructions to configure and generate a SQLAlchemy engine, procure a connection from that engine along with a
+    transaction, and then invoke the migration engine, using the connection as a source of database connectivity.
+
+ - script.py.mako:
+
+     This is a Mako template file which is used to generate new migration scripts. Whatever is here is used to generate
+     new files within versions/. This is scriptable so that the structure of each migration file can be controlled,
+     including standard imports to be within each, as well as changes to the structure of the upgrade() and downgrade()
+     functions. For example, the multidb environment allows for multiple functions to be generated using a naming
+     scheme upgrade_engine1(), upgrade_engine2().
+
+ - versions:
+
+    This directory holds the individual version scripts. the files here use a partial GUID approach.

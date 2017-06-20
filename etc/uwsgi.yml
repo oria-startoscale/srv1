@@ -1,0 +1,14 @@
+uwsgi:
+  buffer-size: 65535
+  module: srv1.api
+  callable: api
+  enable-threads: true
+  gevent: 100
+  http: :1234
+  stats: :1235
+  http-keepalive: 2
+  http-timeout: 3600
+  need-app: true
+  procname: srv1
+  socket-timeout: 60
+  disable-logging: true

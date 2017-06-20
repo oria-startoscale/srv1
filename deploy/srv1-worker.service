@@ -1,0 +1,14 @@
+[Unit]
+Description=srv1-worker Service
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=simple
+ExecStartPre=-/usr/bin/docker-service-stop.sh srv1-worker.yml
+ExecStart=/usr/bin/docker-service-start.sh srv1-worker.yml srv1-worker.stratolog
+ExecStop=/usr/bin/docker-service-stop.sh srv1-worker.yml
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
