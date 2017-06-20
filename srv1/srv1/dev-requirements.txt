@@ -1,8 +1,0 @@
-nose2==0.6.5
-flake8==2.6.2
-cov-core==1.15.0
-pytest==3.0.6
-
-strato-skipper==1.4.1
-strato_pylint==24a982f095772988b459e5a3fbc070d6a884c932
-docker-test-tools==504d995fcc09603bc4ef5b7c3e54a7b9170956d4

@@ -1,9 +1,0 @@
-          {
-            "/api/v2/srv1": {
-              "name": "srv1",
-              "type": "proxy_pass",
-              "host": "srv1.service.strato",
-              "port": 1234,
-              "authenticate_openstack_token": ["*"]
-            }
-          },

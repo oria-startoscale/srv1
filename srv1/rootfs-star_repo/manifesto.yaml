@@ -1,7 +1,0 @@
-- project name: srv1
-  revision: ***************HASH***************
-  containers:
-  - /srv1
-  pips:
-  - srv1-client
-  solvent: rpm

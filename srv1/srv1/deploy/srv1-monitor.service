@@ -1,5 +1,0 @@
-{
-  "monitoring": {"http": "http://127.0.0.1:1234/api/v2/srv1/health",
-                 "interval": "60s"},
-  "installationType": "controller"
-}
