@@ -24,3 +24,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     generate_client_code(args.target_path)
+
+
