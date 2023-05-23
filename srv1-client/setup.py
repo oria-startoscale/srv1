@@ -13,7 +13,7 @@ setuptools.setup(
     packages=['srv1_client', ],
     install_requires=[
         'munch==2.0.4',
-        'requests==2.6',
+        'requests==2.31.0',
     ],
     entry_points={
         "strato.clients": [
